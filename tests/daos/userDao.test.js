@@ -3,7 +3,7 @@ const userDao = require("../../daos/userDao");
 const User = require("../../models/userModel");
 
 beforeAll(async () => {
-  await mongoose.connect("mongodb://localhost:27017/workoai");
+  await mongoose.connect(process.env.MONGO_URI);
 });
 
 afterAll(async () => {

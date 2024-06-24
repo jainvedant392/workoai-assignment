@@ -1,5 +1,3 @@
-// tests/mocks/userDao.js
-
 let mockUsers = [
     {
       _id: "609d7a2b772f040014a4a7f8",
